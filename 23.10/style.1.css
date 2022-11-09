@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    background-color: orange;
+    height: 100px;
+    /* --height: 300px; */
+    /* height: var(--height); */
+    /* position: relative; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+
+}
+
+h3 {
+    /* text-align: center; */
+    /* line-height: 100px; */
+    /* line-height: var(--height); */
+    margin: auto;
+    /* position: absolute; */
+    position: relative;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translateY(-50%) translateX(-50%); */
+    /* border-left: 3px solid #333; */
+    /* padding: 8px; */
+}
+h3::after {
+    position: absolute;
+    left: -10px;
+    content: "";
+    border-left: 3px solid #333;
+    height: 30px;
+    top: 50%;
+    /* left: 50%; */
+    transform: translateY(-50%);
+}

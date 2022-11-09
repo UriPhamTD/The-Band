@@ -1,0 +1,36 @@
+* {
+    font-style: italic;
+}
+p {
+    text-decoration: underline;
+}
+.class-1 {
+    color: red;
+}
+.class-2, .class-3 {
+    color: green;
+}
+.class-4 .class-5 {
+    color:blueviolet;
+}
+p.class-6 {
+    color: blue;
+}
+h3, h4 {
+    color: brown;
+}
+.list li {
+    color:aqua;
+}
+.list > li {
+    color:fuchsia;
+}
+.class-9 + p {
+    color: gold;
+}
+.class-10 ~ p {
+    color: black;
+}
+h5:active {
+    color: red;
+}
